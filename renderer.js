@@ -45,7 +45,7 @@ function parseCommand(command) {
         case 10:
             dicePic.src = 'd10.png'
             diceElement.style.top = '30%'
-            if(rroll.ollResult > 9) diceElement.style.left = '42%'
+            if(roll.rollResult > 9) diceElement.style.left = '42%'
             else diceElement.style.left = '45%'
             break
         case 12:
